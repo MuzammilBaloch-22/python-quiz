@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Python Quiz Web
 
-# Run and deploy your AI Studio app
+This project is a simple and interactive Python Quiz Website.
+It includes 50 multiple-choice questions, a 1-minute timer, and a final result page.
 
-This contains everything you need to run your app locally.
+Features
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+50 Python quiz questions
 
-## Run Locally
+1-minute countdown timer
 
-**Prerequisites:**  Node.js
+Automatic submission when time ends
+
+Final score display
+
+Simple and clean design
+
+Easy to use
+
+How to Use
+
+Open the quiz website.
+
+Click Start Quiz.
+
+Answer all questions before the timer reaches zero.
+
+When the time is over or you finish early, the result page will appear showing your final score.
+
+Project Structure (Simple Overview)
+index page → quiz page → result page
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Index Page: Start button
+
+Quiz Page: Questions + timer
+
+Result Page: Final score
+
+Questions
+
+All 50 questions are included inside the project and load automatically when the quiz starts.
+
+Result System
+
+At the end of the quiz:
+
+Your score is calculated
+
+The result page shows how many answers were correct
+
+License
+
+Free to use, share, and modify.
