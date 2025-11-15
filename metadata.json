@@ -1,0 +1,5 @@
+
+{
+  "name": "Python Quiz Master",
+  "description": "A responsive web app that quizzes users on their Python knowledge with 50 randomized, timed questions. Features include a dark/light mode, a results screen with a detailed review, and score tracking."
+}

@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Quiz Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              dark: {
+                bg: '#1a202c',
+                'bg-alt': '#2d3748',
+                text: '#e2e8f0',
+                'text-alt': '#a0aec0',
+                primary: '#4299e1',
+                'primary-hover': '#2b6cb0',
+                correct: '#48bb78',
+                incorrect: '#f56565',
+                border: '#4a5568',
+              },
+              light: {
+                bg: '#f7fafc',
+                'bg-alt': '#edf2f7',
+                text: '#2d3748',
+                'text-alt': '#718096',
+                primary: '#3182ce',
+                'primary-hover': '#2c5282',
+                correct: '#38a169',
+                incorrect: '#e53e3e',
+                border: '#cbd5e0',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
